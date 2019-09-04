@@ -1,0 +1,26 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+@media screen and (max-width: 576px){
+:root{
+	font-size: 8px;
+}
+}
+@import "common-classes";
+@import "header";
+@import "ishappy";
+@import "coaching";
+@import "about";
+@import "contact";
+@import "classes";
+@import "testimonials";
+@import "events";
+@import "footer";
+

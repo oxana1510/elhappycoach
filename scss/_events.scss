@@ -1,0 +1,108 @@
+.events{
+	position: relative;
+	background: url(../img/events-bg.jpg) no-repeat;
+	background-size: cover;
+	&-bg-girl{
+		position: absolute;
+		left: 3rem;
+		bottom: 0;
+	}
+	.container{
+		position: relative;
+		padding: 15.6rem 3rem 13rem;
+	}
+	&__text{
+		max-width: 53.4rem;
+		margin-left: auto;
+		padding-left: 1rem;
+		.title{
+			text-align: left;
+		}
+		.bg-block,
+		.bg-block2{
+			position: relative;
+			&:after{
+				position: absolute;
+				content: "";
+				height: 100%;
+				border-right-width: 5000px;
+				border-right-style: solid;
+				left: 100%;
+				top: 0;
+			}
+		}
+		.bg-block:after{
+			border-right-color: rgba(255, 255, 255, 0.9);
+		}
+		.bg-block2{
+			font-size: 3rem;
+			line-height: 3.8rem;
+			&:after{
+				border-right-color: rgba(0, 123, 52, 0.9);
+			}
+		}
+		.p-pd{
+			padding: 4.5rem;
+			p{
+				padding-bottom: 1.3rem;
+			}
+			img{
+				vertical-align: middle;
+				margin-right: 1.3rem;
+			}
+			.btn{
+				max-width: 26.1rem;
+				margin-top: 1.3rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1160px){
+.events-bg-girl{
+	left: -10.5rem;
+}
+}
+
+@media screen and (max-width: 992px){
+.events-bg-girl{
+	left: -32rem;
+}
+}
+@media screen and (max-width: 820px){
+.events-bg-girl{
+	left: -33rem;
+}
+}
+
+@media screen and (max-width: 768px){
+.events{
+	.container{
+		padding: 10rem 0 320px;
+	}
+	&__text{
+		max-width: 100%;
+		padding-left: 0;
+		.bg-block2{
+			width: 100%;
+		}
+	} 
+}
+.events-bg-girl{
+	left: 0;
+	right: 0;
+	margin: auto;
+	-webkit-transform: scale(0.5, 0.5);
+	    -ms-transform: scale(0.5, 0.5);
+	        transform: scale(0.5, 0.5);
+	-webkit-transform-origin: bottom;
+	    -ms-transform-origin: bottom;
+	        transform-origin: bottom;
+}
+}
+
+@media screen and (max-width: 576px){
+.events-bg-girl{
+	left: -12rem;	
+}
+}

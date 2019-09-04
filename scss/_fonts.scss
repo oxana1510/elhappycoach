@@ -1,0 +1,50 @@
+@font-face {font-family: "Aller-Regular";
+    display: swap;
+    src: url("../fonts/Aller-Reg.eot");
+    src: url("../fonts/Aller-Reg.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Aller-Reg.woff2") format("woff2"),
+    url("../fonts/Aller-Reg.woff") format("woff"),
+    url("../fonts/Aller-Reg.ttf") format("truetype"),
+    url("../fonts/Aller-Reg.svg#Aller") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: "AllerDisplayReg";
+    display: swap;
+    src: url("../fonts/AllerDisplay-reg.eot");
+    src: url("../fonts/AllerDisplay-reg.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AllerDisplay-reg.woff2") format("woff2"),
+    url("../fonts/AllerDisplay-reg.woff") format("woff"),
+    url("../fonts/AllerDisplay-reg.ttf") format("truetype"),
+    url("../fonts/AllerDisplay-reg.svg#Aller Display") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: "Helios-Cond-Light-Reg";
+    display: swap;
+    src: url("../fonts/HeliosCondLight-reg.eot");
+    src: url("../fonts/HeliosCondLight-reg.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HeliosCondLight-reg.woff") format("woff"),
+    url("../fonts/HeliosCondLight-reg.ttf") format("truetype"),
+    url("../fonts/HeliosCondLight-reg.svg#Helios-Cond-Light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: "HeliosUltraCompressedC";
+    display: swap;
+    src: url("../fonts/HeliosUltraCompressedC.eot");
+    src: url("../fonts/HeliosUltraCompressedC.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HeliosUltraCompressedC.woff2") format("woff2"),
+    url("../fonts/HeliosUltraCompressedC.woff") format("woff"),
+    url("../fonts/HeliosUltraCompressedC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font1: "Aller-Regular",sans-serif;
+$font2: "AllerDisplayReg",sans-serif;
+$font3: "Helios-Cond-Light-Reg",sans-serif;
+$font4: "HeliosUltraCompressedC",sans-serif;

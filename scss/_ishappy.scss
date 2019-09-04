@@ -1,0 +1,49 @@
+.ishappy{
+	margin-top: -7rem;
+	background: url(../img/ishappy.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	.container{
+		padding: 45.5rem 2rem 24.5rem;
+		max-width: 100.2rem;
+		width: 100%;
+		text-align: center;
+	}
+	h1{
+		width: 100%;
+		display: inline-block;
+		font: 5rem $font2;
+	}
+	p{
+		font-size: 2.6rem;
+		line-height: 3.8rem;
+	}
+	.bg-block{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		.btn{
+			max-width: 26.1rem;
+		}
+		.btn-transp{
+			margin-right: 0.9rem;
+		}
+	}
+}
+
+
+@media screen and (max-width: 576px){
+.ishappy{
+	.bg-block{
+		-ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+		.btn-transp{
+			margin-right: 0;
+			margin-bottom: 1rem;
+		}
+	} 
+}	
+}
